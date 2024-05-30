@@ -7,6 +7,7 @@ class PrimeFixture : public testing::Test {
 public:
 	PrimeFactor prime_factor;
 	vector<int> expected;
+
 };
 
 TEST_F(PrimeFixture, Of1) {
